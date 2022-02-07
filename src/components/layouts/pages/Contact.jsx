@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {useState} from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 
@@ -54,7 +55,7 @@ class Contact extends Component{
                 </div>
             </section>
         );
-    }
+        }
 }
 
 export default Contact;

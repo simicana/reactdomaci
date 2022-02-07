@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
-class NotFound extends Component{
-    render(){
+function NotFound(){
+    const [txt, setTxt] = useState('');
         return(
             <ComponentNotFound className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <div className="error-template">
                             <h1>Greška!</h1>
-                            <h2>404 - stranica ne postoji</h2>
+                            <h2>ERROR 404</h2>
                             <div className="error-details">
-                                Izvinjavamo se, tražena stranica nije pronađena. Došlo je do greške!
+                                Kliknite na dugme ispod za vise detalja!
+                            </div>
+                            <div>
+                                <p>{txt}</p>
+                                <button onClick={() => setTxt(txt + '*Detalji greske: 404 greška je HTTP statusni kod, koji znači da stranica putem koje želite da pristupite web sajtu nije pronađena na serveru. Molimo Vas vratite se na pocetnu stranu sajta.')}>Više detalja</button>
                             </div>
                             <br></br>
                             <div className="error-actions">
@@ -26,7 +31,7 @@ class NotFound extends Component{
             </ComponentNotFound>
         );
     }
-}
+
 
 export default NotFound;
 

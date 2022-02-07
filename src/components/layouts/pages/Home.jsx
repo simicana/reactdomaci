@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { InfoConsumer } from '../../context.jsx';
 import Info from '../../Info.jsx';
 
+
 class Home extends Component{
     render(){
         return(
