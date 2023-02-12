@@ -7,7 +7,7 @@ class Contact extends Component{
     render(){
         function sendEmail(e) {
             e.preventDefault();
-            emailjs.sendForm('service_6paogvc', 'template_l1h7osi', e.target, 'user_Z7wLl10FoZh4WAMsDGOOf')
+            emailjs.sendForm('service_hm3a4tm', 'template_etc2q96', e.target, 'FmVIgR6lx_OnxWjpo')
               .then((result) => {
                   console.log(result.text);
               }, (error) => {
@@ -24,7 +24,9 @@ class Contact extends Component{
                 
                 <div className="row">
                     <div className="col-md-7">
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1ohz1aY0Rl1igWf2KyNv4J9FHSc3FPYHs" style={{
+            
+                    
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1xxQTKeYHUoJ_02u-FXdo9VwKpKL3rKo&usp" style={{
                         border: '0',
                         width: '100%',
                         height: '315px',

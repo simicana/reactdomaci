@@ -1,56 +1,56 @@
 export const postInfo = [
     {
         id: 1,
-        headerTitle: 'Raspored ispita',
-        headerSubtitle: 'Januarski ispitni rok',
-        headerText: 'Postavljen je raspored za januarski ispitni rok.',
-        title: 'Raspored ispita',
+        headerTitle: 'Stomatološke uskuge',
+        headerSubtitle: 'Opšta stomatologija',
+        headerText: 'Pružamo usluge opšte stomatologije, bele plombe, kompozitni ispuni ',
+        title: 'Stomatološke uskuge',
         description: 'PDF fajl...',
-        img: '.././images/fon.png'
+        img: '/ddt.png'
     },
     {
         id: 2,
-        headerTitle: 'Raspored ispita',
-        headerSubtitle: 'Februarski ispitni rok',
-        headerText: 'Postavljen je raspored za februarski ispitni rok.',
-        title: 'Raspored ispita',
+        headerTitle: 'Stomatološke uskuge',
+        headerSubtitle: 'Beljenje zuba',
+        headerText: 'Beljenje zuba, lasersko beljenje, folije za beljenje zuba',
+        title: 'Stomatoloonške uskuge',
         description: 'PDF fajl...',
-        img: '.././images/fon.png'
+        img: '/ddt.png'
     },
     {
         id: 3,
-        headerTitle: 'Raspored ispita',
-        headerSubtitle: 'Apsolventski rok',
-        headerText: 'Postavljen je raspored za apsolventski ispitni rok.',
-        title: 'Raspored ispita',
+        headerTitle: 'Stomatološke uskuge',
+        headerSubtitle: 'Protetika',
+        headerText: 'Metalokeramičke, bezmetalne krunice, nadogradnja, mostovi',
+        title: 'Stomatološke uskuge',
         description: 'PDF fajl...',
-        img: '.././images/fon.png'
+        img: '/ddt.png'
     },
-    // {
-    //     id: 4,
-    //     headerTitle: 'Raspored ispita',
-    //     headerSubtitle: 'Oktobarski ispitni rok',
-    //     headerText: 'Postavljen je raspored za oktobarski ispitni rok.',
-    //     title: 'Raspored ispita',
-    //     description: 'PDF fajl sa rasporedom ispita',
-    //     img: '.././images/fon.png'
-    // },
+   /*  {
+         id: 4,
+         headerTitle: 'Stomatološke uskuge',
+         headerSubtitle: 'Fasete',
+         headerText: 'Keramičke fasete ili viniri, kompozitne fasete',
+         title: 'Stomatološke uskuge',
+         description: 'PDF fajl',
+         img: '/ddt.png'
+     },*/
     // {
     //     id: 5,
-    //     headerTitle: 'Raspored kolokvijuma',
-    //     headerSubtitle: 'Prva kolokvijumska nedelja',
-    //     headerText: 'Postavljen je raspored za prvu kolokvijumsku nedelju.',
-    //     title: 'Raspored kolokvijuma',
-    //     description: 'PDF fajl sa rasporedom kolokvijuma',
-    //     img: '.././images/fon.png'
+    //     headerTitle: 'Stomatološke uskuge',
+    //     headerSubtitle: 'Endodoncija',
+    //     headerText: 'Lečenje zuba, lečenje kanala zuba, tzv. vađenje živca',
+    //     title: 'Stomatološke uskuge',
+    //     description: 'PDF fajl',
+    //     img: '/ddt.png'
     // },
     // {
     //     id: 6,
-    //     headerTitle: 'Raspored kolokvijuma',
-    //     headerSubtitle: 'Druga kolokvijumska nedelja',
-    //     headerText: 'Postavljen je raspored za drugu kolokvijumsku nedelju.',
-    //     title: 'Raspored kolokvijuma',
-    //     description: 'PDF fajl sa rasporedom kolokvijuma',
-    //     img: '.././images/fon.png'
+    //     headerTitle: 'Stomatološke uskuge',
+    //     headerSubtitle: 'Implantologija',
+    //     headerText: 'Ugradnja implantata',
+    //     title: 'Stomatološke uskuge',
+    //     description: 'PDF fajl',
+    //     img: '/ddt.png'
     // }
 ];

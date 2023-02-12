@@ -8,16 +8,16 @@ function Footer(){
             <div className="container">
                 <div className="row">
                     <div className="col-md-3 col-sm-6">
-                    <h4>Fakultet organizacionih nauka</h4>
+                    <h4>Dental Divine Team </h4>
                     <ul className="list-unstyled">
-                        <li>Jove Ilica 154, 11000 Beograd</li>
-                         <li>Telefon: 011/1234-567</li>    
+                        <li>Bulevar Oslobodjenja 307, 11000 Beograd</li>
+                         <li>Telefon: 011/1234-999</li>    
                          </ul>  
                     </div>    
                 </div>
                 <div className="footer-bottom">
                  <p className="text-xs-center">
-                 &copy;{new Date().getFullYear()} FON - sva prava zadržana
+                 &copy;{new Date().getFullYear()} Dental Divine Team - sva prava zadržana
                  </p>
                 </div>
             </div>
